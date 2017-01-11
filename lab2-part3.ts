@@ -39,24 +39,15 @@ class SavingsAccount extends Account {
     }
 }
 
-console.log('Checkings account')
-let checkingsAccount = new CheckingsAccount(20, "Luis");
+
+let checkingsAccount = new CheckingsAccount(28, "Luca");
 checkingsAccount.checkBalance();
-checkingsAccount.deposit(40);
+checkingsAccount.deposit(10);
 checkingsAccount.checkBalance();
-checkingsAccount.withdraw(30);
+checkingsAccount.withdraw(80);
 checkingsAccount.checkBalance();
 
-console.log('\nSavings account')
-let savingsAccount = new SavingsAccount(20, "Luis");
+let savingsAccount = new SavingsAccount(100, "All");
 savingsAccount.checkBalance();
-savingsAccount.deposit(10);
+savingsAccount.deposit(50);
 savingsAccount.checkBalance();
-savingsAccount.withdraw(15);
-savingsAccount.withdraw(15);
-savingsAccount.withdraw(15);
-savingsAccount.withdraw(15);
-
-savingsAccount.checkBalance();
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
